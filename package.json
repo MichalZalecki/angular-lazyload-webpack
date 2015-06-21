@@ -1,0 +1,37 @@
+{
+  "name": "angular-lazyload-webpack",
+  "version": "1.0.0",
+  "description": "Lazy load AngularJS modules using Webpack and AngularUI Router",
+  "scripts": {
+    "start": "hs build",
+    "build": "webpack -p",
+    "devs": "webpack-dev-server --content-base build --hot --inline --devtool eval",
+    "test": "karma start test/karma.config.js"
+  },
+  "author": "Michal Zalecki <michal@michalzalecki.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.4.1",
+    "http-server": "^0.8.0",
+    "raw-loader": "^0.5.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.4.1",
+    "angular-ui-router": "^0.2.15",
+    "babel-core": "^5.6.1",
+    "babel-loader": "^5.1.4",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.36",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-html-reporter": "^0.2.6",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-webpack": "^1.5.1",
+    "ng-annotate-loader": "0.0.4",
+    "node-libs-browser": "^0.5.2",
+    "oclazyload": "^0.6.3",
+    "phantomjs": "^1.9.17",
+    "webpack": "^1.9.11",
+    "webpack-dev-server": "^1.9.0"
+  }
+}

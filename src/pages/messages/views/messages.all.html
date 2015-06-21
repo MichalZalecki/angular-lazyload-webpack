@@ -1,0 +1,5 @@
+<h2>All</h2>
+<p>2.bundle.js and 3.bundle.js</p>
+<article ng-repeat="msg in vm.msgs">
+  <p><strong>{{ msg.date | date: 'h:mm:ss, d MMM y' }}</strong><br/>{{ msg.text }}</p>
+</article>
