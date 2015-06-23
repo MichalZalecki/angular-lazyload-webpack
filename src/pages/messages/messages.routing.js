@@ -34,7 +34,11 @@ function messagesRouting($stateProvider) {
       }
     }).state('messages.new', {
       url: '/new',
-      template: require('./views/messages.new.html'),
+      templateProvider: ($q) => {
+        return $q((resolve) => {
+          require.ensure([], () => resolve(require('./views/messages.new.html')));
+        });
+      },
       controller: 'MessagesNewController as vm',
       resolve: {
         loadMessagesNewController: ($q, $ocLazyLoad) => {
