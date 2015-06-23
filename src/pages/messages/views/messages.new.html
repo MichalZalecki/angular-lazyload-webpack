@@ -1,6 +1,8 @@
 <h2>New</h2>
 <p>2.bundle.js and 4.bundle.js</p>
-<form novalidate ng-submit="vm.create(vm.text)">
-  <input type="text" ng-model="vm.text"/>
-  <input type="submit"/>
+<form class="form-inline" novalidate ng-submit="vm.create(vm.text)">
+  <div class="form-group">
+    <input type="text" class="form-control" ng-model="vm.text">
+  </div>
+  <input type="submit" class="btn btn-primary">
 </form>
