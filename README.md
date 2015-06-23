@@ -15,4 +15,4 @@ npm install && npm run devs
 
 ## Article
 
-@TODO
+Here's my [Lazy load AngularJS with Webpack](http://michalzalecki.com/lazy-load-angularjs-with-webpack/)
