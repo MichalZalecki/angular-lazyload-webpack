@@ -2,12 +2,12 @@
 
 class MessagesAllController {
   constructor(msgStore) {
-    this.msgs = msgStore.all()
+    this.msgs = msgStore.all();
   }
 }
 
 export default angular
   .module('messages.all.controller', [
-    require('commons/msg-store').name
+    require('commons/msg-store').name,
   ])
   .controller('MessagesAllController', MessagesAllController);
