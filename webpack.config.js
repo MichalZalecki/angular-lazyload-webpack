@@ -12,7 +12,7 @@ var config = {
   module: {
     noParse: [],
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: 'ng-annotate?sourcemap=false!babel' },
+      { test: /\.js$/, exclude: /node_modules/, loader: 'ng-annotate!babel' },
       { test: /\.html$/, loader: 'raw' },
     ]
   }
