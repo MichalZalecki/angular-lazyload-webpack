@@ -27,7 +27,7 @@
     "karma-jasmine": "^0.3.5",
     "karma-phantomjs-launcher": "^0.2.0",
     "karma-webpack": "^1.5.1",
-    "ng-annotate-loader": "0.0.4",
+    "ng-annotate-loader": "^0.2.0",
     "node-libs-browser": "^0.5.2",
     "oclazyload": "^0.6.3",
     "phantomjs": "^1.9.17",
